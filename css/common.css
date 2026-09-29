@@ -171,3 +171,48 @@ button {
 .hero-button:focus {
   background-color: #404bbf;
 }
+
+.modal-button-send {
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  padding: 16px 32px;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms ease-in-out;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+}
+.modal-button-send:focus,
+.modal-button-send:hover {
+  background-color: #404bbf;
+}
+.subscribe-button {
+  color: #fff;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  width: 165px;
+  height: 40px;
+  max-width: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border: none;
+  cursor: pointer;
+  transition: 250ms ease-in-out;
+  transition-property: background-color;
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background: #31d0aa;
+}
+.subscribe-icon {
+  color: #fff;
+}

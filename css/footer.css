@@ -16,6 +16,7 @@
   margin: 0;
 }
 .footer-socials-container {
+  margin-right: 86px;
   color: #fff;
   width: 208px;
   height: 80px;
@@ -48,4 +49,46 @@
 .footer-socials:hover,
 .footer-socials:focus {
   background-color: #31d0aa;
+}
+.footer-subscribe-container {
+  width: 453px;
+  height: 80px;
+  color: #fff;
+}
+.footer-subscribe-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+.footer-form {
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+}
+.footer-form-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  width: 264px;
+  height: 40px;
+  background-color: #2e2f42;
+  color: #fff;
+  outline: transparent;
+  background-color: transparent;
+  transition: 300ms ease-in-out;
+  transition-property: border-color;
+}
+.subscribe-button {
+}
+
+.footer-form-input::placeholder {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.footer-form-input:focus {
+  border-color: #31d0aa;
 }
